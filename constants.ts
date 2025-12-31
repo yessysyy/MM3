@@ -13,7 +13,7 @@ export const GROUPS: string[] = [
  * Link ini digunakan sebagai database pusat. Semua perangkat yang membuka
  * aplikasi ini akan otomatis terhubung ke database yang sama secara real-time.
  */
-export const DEFAULT_CLOUD_URL = "https://script.google.com/macros/s/AKfycbzFOug3hYb9v5eZHyoGM3tDSFwTYVKseWXNbn3qnu_MKp78wGd75YKtZBp-sJmd2-Eg/exec";
+export const DEFAULT_CLOUD_URL = "https://script.google.com/macros/s/AKfycbxt-MJKU4EE2JFw_kr9BTAmZUbHNKFTHbTC5noF-96ZpW_Vjs-kZwRfSPsEZ0RFeEeJ/exec";
 
 export const ROLES: Role[] = [
   'Admin',
