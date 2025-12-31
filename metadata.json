@@ -1,0 +1,7 @@
+{
+  "name": "MM3",
+  "description": "Platform manajemen database dan presensi peserta muda-mudi berbasis role dengan integrasi rekapitulasi statistik.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
