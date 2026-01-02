@@ -116,7 +116,9 @@ const App: React.FC = () => {
       if (!response.ok) throw new Error("Gagal mengambil data");
       const data = await response.json();
       setMembers(data.members || []);
-      setAttendance(data.attendance || []);
+      if (data.attendance && data.attendance.length > 0) {
+  setAttendance(data.attendance);
+}
       setActivities(data.activities || []);
       setSchedules(data.schedules || []);
       setLastSync(new Date().toLocaleTimeString());
